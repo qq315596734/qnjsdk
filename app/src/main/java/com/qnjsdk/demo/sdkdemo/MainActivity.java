@@ -37,6 +37,7 @@ public class MainActivity extends Activity {
             String uid                用户uid
             QnjsdkCallback callback   sdk启动成功失败的回调
          */
+        Log.e("111111111111", "uuid :" + uuid + "phone :" + phone);
         QNJSdk.start(MainActivity.this, phone, uuid, new QnjsdkCallback() {
             @Override
             public void onResult(QnjsdkResult result) {

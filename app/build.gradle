@@ -26,11 +26,11 @@ android {
 
     buildTypes {
         debug {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -53,6 +53,8 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.0'
-    implementation 'com.qckj.qnjsdk:qnjsdk-v3:1.0.1'
+    implementation 'com.qckj.qnjsdk:qnjsdk-v3:1.0.2'
+    annotationProcessor 'com.qckj.qnjsdk:qnjsdk-v3:1.0.2'
+
 
 }
