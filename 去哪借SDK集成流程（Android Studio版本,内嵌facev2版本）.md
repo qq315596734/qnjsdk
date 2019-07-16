@@ -81,6 +81,7 @@
 ### 4. 打开SDK并接收回调
 
 第一步：在 `Application.oncreate()` 里面调用 QNJSdk.init(this); 完成初始化
+
 第二步：在需要启动sdk的地方，通过调用QNJSdk.start(); 方法启动qnjsdk;
 
 示例如下：
