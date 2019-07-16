@@ -22,19 +22,13 @@
             </intent-filter>
         </activity>
 
-        <!--<meta-data-->
-            <!--android:name="QNJSDK_APPID"-->
-            <!--android:value="您的appid"/>-->
-        <!--<meta-data-->
-            <!--android:name="QNJSDK_APPKEY"-->
-            <!--android:value="您的appkey"/>-->
-
+        <!--需要填写-->
         <meta-data
             android:name="QNJSDK_APPID"
-            android:value="13"/>
+            android:value="您的appid"/>
         <meta-data
             android:name="QNJSDK_APPKEY"
-            android:value="EjE8EGYz"/>
+            android:value="您的appkey"/>
 
         <service
             android:name="com.moxie.client.accessible.AccessibleCrawlerService"
