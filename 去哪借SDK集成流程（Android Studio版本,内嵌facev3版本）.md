@@ -141,6 +141,10 @@
                 Toast.makeText(MainActivity.this, "退出了sdk", Toast.LENGTH_LONG).show();
             }
      });
+     
+ 4，自定义sdk首页tab
+ 
+     底部tabitem的文案、图片、个数支持自由配置如有需要可联系我司产品
 
 ### ————————–-————接入完成——–-————————–-
 
