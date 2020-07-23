@@ -53,8 +53,9 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.0'
-    implementation 'com.qckj.qnjsdk:qnjsdk-v3:1.0.2'
-    annotationProcessor 'com.qckj.qnjsdk:qnjsdk-v3:1.0.2'
+    implementation 'com.qckj.qnjsdk:qnjsdk-v2:1.1.0'
+//    implementation 'com.qckj.qnjsdk:qnjsdk-v3:1.1.0'
+
 
 
 }
